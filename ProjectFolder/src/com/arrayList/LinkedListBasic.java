@@ -13,14 +13,21 @@ public class LinkedListBasic {
 		list.add(2);
 		list.add(3);
 		list.add(3);
+		
 		//list.addFirst(3);
 		list.lastIndexOf(3);
 		
 		System.out.println("link list = "+list);
 		System.out.println("list.lastIndexOf(3) at "+list.lastIndexOf(3));
 		
+		Iterator<Integer> itr=list.iterator();  
+		  while(itr.hasNext()){  
+		   if(itr.next()==3)
+			   System.out.println("ashish");
+		  
+		
 		
 
 	}
 
-}
+	}}
