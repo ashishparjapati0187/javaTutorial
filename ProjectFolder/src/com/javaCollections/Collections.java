@@ -14,6 +14,7 @@ public class Collections {
 		Iterator itr=list1.iterator(); 
 		
 		itr.remove();
+		ListIterator<E>
 		
 
 	}
