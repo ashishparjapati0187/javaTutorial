@@ -2,6 +2,7 @@ package com.javaCollections;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;
+import java.util.Queue;
 
 
 public class Queues {
@@ -10,6 +11,9 @@ public class Queues {
 		// TODO Auto-generated method stub
 		
 		PriorityQueue<String> q=new PriorityQueue<>();
+		
+		// or 
+		Queue<String> q2=new PriorityQueue<>();
 		
 		q.add("ashish");
 		q.add("kumar");

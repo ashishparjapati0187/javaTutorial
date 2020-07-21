@@ -11,10 +11,9 @@ public class Collections {
 		List <String> list2 = new LinkedList<>();  
 		List <String> list3 = new Vector<>();  
 		List <String> list4 = new Stack<>();  
-		Iterator itr=list1.iterator(); 
+		Iterator<String> itr=list1.iterator(); 
 		
-		itr.remove();
-		ListIterator<E>
+		//itr.remove();		
 		
 
 	}
