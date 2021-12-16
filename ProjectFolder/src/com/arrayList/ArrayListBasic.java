@@ -6,10 +6,15 @@ public class ArrayListBasic {
 
 	public static void main(String[] args) {
 		
+		int[] array= {6,9,8};
 		ArrayList<Integer> list=new ArrayList<>();
-		list.add(12);
-		list.add(23);
+		list.add(array[0]);
+		list.add(array[2]);
+		list.set(1, array[1]);
 		System.out.println(" arrayList = "+list);
+		int a=2&2;
+		
+		System.out.println("aa"+a);
 		
 //		list.remove(1);
 //		System.out.println(" removed after values= "+list);

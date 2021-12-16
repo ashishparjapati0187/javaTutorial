@@ -7,13 +7,14 @@ public class HashSets{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		HashSet<String> set=new HashSet();
+
+		Set set=new HashSet();
 		set.add("ashish");
 		set.add("parjapati");
 		set.add("ashish");
 		System.out.println("list = "+set);
 		Iterator<String> itr=set.iterator();
+
 
 	}
 
